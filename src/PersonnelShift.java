@@ -3,12 +3,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class PersonnelShift implements Availability {
-	private static Map<Integer, Person> personnelShiftInfo  = new HashMap<Integer, Person>();
+	private static Map<Integer, Person> personnelShiftInfo;
 
 	public PersonnelShift() {
 		// By initializing the Map with corresponding key,value pair
 		// we can prevent to accept any other Object value into our Map
-
+		personnelShiftInfo  = new HashMap<Integer, Person>();
 		
 	}
 
