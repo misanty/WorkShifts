@@ -42,8 +42,8 @@ public class PersonnelShift implements Availability {
 	}
 
 	public static void setPersonnelShiftInfo(int dayComb, Person person  ) {
-		Person p = person;
-		PersonnelShift.personnelShiftInfo.put(dayComb, p);
+		
+		PersonnelShift.personnelShiftInfo.put(dayComb, person);
 	}
 
 }
