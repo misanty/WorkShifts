@@ -2,7 +2,7 @@
  * 
  * @author misanty
  *This enum holds the day of week with corresponding bit values,
- *later on to store with multiple combination of the personnel work days in an EnumSet
+ *later on to store with multiple combination of the personnel workdays in an EnumSet
  */
 public enum DayOfWeek {
 	Monday(1),
